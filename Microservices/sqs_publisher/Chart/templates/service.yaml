@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "sqs-publisher.fullname" . }}
+  labels:
+    #{{- include "sqs-publisher.labels" . | nindent 4 }}
+    app: sqs-publisher
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: 15000
+      protocol: TCP
+      name: http
+  selector:
+    app: sqs-publisher

@@ -1,0 +1,32 @@
+{
+  "bucket_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sqs-messages-40"
+  },
+  "final_bucket_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sqs-messages-40"
+  },
+  "sqs_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sqs1105-2025-1044-40"
+  },
+  "sqs_url": {
+    "sensitive": false,
+    "type": "string",
+    "value": "https://sqs.eu-west-1.amazonaws.com/340714609210/sqs1105-2025-1044-40"
+  },
+  "param_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "token1105-2025-1044-40"
+  },
+  "param_value": {
+    "sensitive": false,
+    "type": "string",
+    "value": "_%thV($aCV"
+  }
+}
